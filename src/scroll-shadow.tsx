@@ -1,6 +1,6 @@
 import * as React from 'react';
-import {Component} from 'react';
-import {ScrollableContent, ScrollableWrapper} from './styled';
+import { Component } from 'react';
+import { ScrollableContent, ScrollableWrapper } from './styled';
 
 export interface ShadowColors {
   inactive: string;
@@ -34,7 +34,7 @@ export class ScrollShadow extends Component<ScrollShadowProps> {
       topShadowColors,
       shadowSize
     } = this.props;
-    const style = {height};
+    const style = { height };
 
     return (
       <ScrollableWrapper
